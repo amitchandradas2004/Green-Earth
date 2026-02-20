@@ -23,9 +23,9 @@
   </head>
   <body>
     <header>
-      <nav class="bg-[#15803D]">
+      <nav class="bg-[#15803D] h-[130px] md:h-[90px] content-center">
         <div
-          class="flex justify-between container mx-auto h-[80px] text-white items-center inter"
+          class="flex flex-col md:flex-row justify-between container mx-auto text-white items-center gap-2 md:gap-0 inter"
         >
           <h2 class="font-bold text-xl">Green-Earth</h2>
           <div class="flex gap-6">
@@ -34,12 +34,39 @@
             <h2>Plant a Tree</h2>
           </div>
           <button
-            class="rounded-full w-[130px] h-[45px] text-[#15803D] font-bold bg-[#FACC15]"
+            class="rounded-full w-[130px] h-[45px] text-[#15803D] font-bold bg-[#FACC15] outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
           >
             Plant a Tree
           </button>
         </div>
       </nav>
+
+      <div class="bg-[#CFF0DC]">
+        <div class="flex container mx-auto my-auto ">
+          <div class="justify-end content-end hidden md:inline">
+            <img src="./assets/hero-leaf1.png" alt="" />
+          </div>
+          <div
+            class="h-[50%] text-center items-center content-center inter "
+          >
+            <h2 class="text-[30px] md:text-[40px] lg:text-[60px] font-bold pt-2">
+              Plant a Tree, Grow a Future
+            </h2>
+            <p class="opacity-60 p-5 md:p-2">
+              Join our mission to plant 1 million trees and make the Earth
+              greener for future generations.
+            </p>
+            <button
+              class="rounded-full w-[130px] h-[45px] text-[#15803D] font-bold bg-[#FACC15] outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500 mb-2"
+            >
+              Get Involved
+            </button>
+          </div>
+          <div class="content-end hidden md:inline">
+            <img src="./assets/hero-leaf2.png" alt="" />
+          </div>
+        </div>
+      </div>
     </header>
   </body>
 </html>
