@@ -18,6 +18,7 @@ This project demonstrates strong fundamentals in UI design, responsive layout st
 
 ```
 https://amitchandradas2004.github.io/Green-Earth/
+```
 
 ---
 
@@ -37,12 +38,6 @@ https://amitchandradas2004.github.io/Green-Earth/
   - Category badge
   - Price
   - Add-to-cart button
-
-### 🛒 3. Dynamic Cart System
-- Add trees dynamically
-- Remove items individually
-- Real-time total price calculation
-- DOM-based cart updates
 
 ### 📊 4. Impact Section
 Displays environmental impact metrics:
@@ -73,6 +68,8 @@ Displays environmental impact metrics:
 
 - Modular UI sections
 - Clean component-based layout
+- Event-driven cart functionality
+- Professional UI hierarchy & spacing system
 
 ---
 
@@ -82,18 +79,6 @@ Displays environmental impact metrics:
 - Interactive UI development
 - Clean and structured code organization
 - Understanding of real-world web application flow
-
----
-
-## 🔮 Future Enhancements
-
-- Backend integration (Node.js + Express)
-- Database integration (MongoDB)
-- Payment gateway system
-- User authentication
-- Search & filter system
-- Admin dashboard
-- API-driven tree data
 
 ---
 
