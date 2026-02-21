@@ -16,11 +16,12 @@ This project demonstrates strong fundamentals in UI design, responsive layout st
 
 ## 🚀 Live Preview
 
-```
-[View Live Demo](https://amitchandradas2004.github.io/Green-Earth/)```
+``
+[View Live Demo]  (https://amitchandradas2004.github.io/Green-Earth/)```
 
 ---
 
+``
 ## ✨ Core Features
 
 ### 🌿 1. Hero Campaign Section
