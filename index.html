@@ -4,7 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Green-Earth</title>
-    <!-- Tailwind Css -->
+    <link
+      rel="shortcut icon"
+      href="./assets/download.png"
+      type="image/x-icon"
+    />
+    <!-- Tailwind Css & Daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Font Awesome CDN -->
     <link
@@ -80,282 +90,26 @@
 
     <!-- Choose Your Trees Section -->
     <section class="bg-[#DCFCE7]">
-      <h2 class="text-center inter text-[32px] font-bold pt-[100px] pb-[40px]">
+      <h2 class="text-center inter text-[32px] font-bold py-[100px]">
         Choose Your Trees
       </h2>
-      <div class="flex justify-center pl-2 pr-2">
-        <div
-          class="inter text-[#1F2937] bg-white p-3 rounded-xl hidden sm:inline"
-        >
-          <h2 class="text-[20px] font-semibold pb-2 text-black">Categories</h2>
-          <p class="rounded-md bg-[#15803D] text-white pt-1 pb-1 pl-1 mb-2">
-            All Trees
-          </p>
-          <p
-            class="rounded-md hover:bg-[#15803D] hover:text-white pt-1 pb-1 pl-1"
-          >
-            Fruit Trees
-          </p>
-          <p
-            class="rounded-md hover:bg-[#15803D] hover:text-white pt-1 pb-1 pl-1"
-            class="rounded-md hover:bg-[#15803D] hover:text-white pt-1 pb-1 pl-1"
-          >
-            Flowering Trees
-          </p>
-          <p
-            class="rounded-md hover:bg-[#15803D] hover:text-white pt-1 pb-1 pl-1"
-          >
-            Shade Trees
-          </p>
-          <p
-            class="rounded-md hover:bg-[#15803D] hover:text-white pt-1 pb-1 pl-1"
-          >
-            Medicinal Trees
-          </p>
-          <p
-            class="rounded-md hover:bg-[#15803D] hover:text-white pt-1 pb-1 pl-1"
-          >
-            Timber Trees
-          </p>
-          <p
-            class="rounded-md hover:bg-[#15803D] hover:text-white pt-1 pb-1 pl-1"
-          >
-            Evergreen Trees
-          </p>
-          <p
-            class="rounded-md hover:bg-[#15803D] hover:text-white pt-1 pb-1 pl-1"
-          >
-            Ornamental Plants
-          </p>
-          <p
-            class="rounded-md hover:bg-[#15803D] hover:text-white pt-1 pb-1 pl-1"
-          >
-            Bamboo
-          </p>
-          <p
-            class="rounded-md hover:bg-[#15803D] hover:text-white pt-1 pb-1 pl-1"
-          >
-            Climbers
-          </p>
-          <p
-            class="rounded-md hover:bg-[#15803D] hover:text-white pt-1 pb-1 pl-1"
-          >
-            Aquatic Plants
-          </p>
-        </div>
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mr-2 ml-2"
-        >
-          <div class="rounded-2xl p-2 bg-white content-center">
-            <img
-              src="./assets/mango.jpg"
-              class="w-full rounded-2xl mx-auto ease-in-out hover:scale-102 transition-transform duration-500"
-            />
-            <h2 class="inter text-[14px] font-semibold pt-3">Mango Tree</h2>
-            <p class="text-[12px] text-[#1F2937] inter">
-              The mango tree is a tropical fruit tree known for its sweet and
-              juicy mangoes. It grows well in warm climates like Bangladesh and
-              can live for many years.
-            </p>
-            <div class="flex justify-between items-center mt-2 mb-3">
-              <button
-                class="bg-[#DCFCE7] text-[#15803D] rounded-2xl pt-1 pb-1 pr-3 pl-3 outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
-              >
-                Mango Tree
-              </button>
-              <p
-                class="inter text-[14px] font-semibold outline-none ease-in-out hover:scale-105 transition-transform duration-500"
-              >
-                ৳500
-              </p>
-            </div>
-            <button
-              class="text-center w-full rounded-3xl pt-3 pb-3 bg-[#15803D] text-white inter font-semibold outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
-            >
-              Add to Cart
+      <div class="grid grid-cols-12 gap-5 container mx-auto text-center">
+        <!-- Catagories -->
+        <div class="col-span-3 bg-red-300">
+          <h2 class="text-2xl font-bold">Catagories</h2>
+          <div>
+            <button class="btn btn-success w-full" id="allTreesBtn">
+              All Trees
             </button>
-          </div>
-          <div class="rounded-2xl p-2 bg-white content-center">
-            <img
-              src="./assets/guaba.jpg"
-              class="w-full rounded-2xl mx-auto ease-in-out hover:scale-102 transition-transform duration-500"
-            />
-            <h2 class="inter text-[14px] font-semibold pt-3">Guava Tree</h2>
-            <p class="text-[12px] text-[#1F2937] inter">
-              The guava tree is a small fruit tree that produces round or oval
-              fruits rich in vitamin C. It grows easily in tropical and
-              subtropical regions.
-            </p>
-            <div class="flex justify-between items-center mt-2 mb-3">
-              <button
-                class="bg-[#DCFCE7] text-[#15803D] rounded-2xl pt-1 pb-1 pr-3 pl-3 outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
-              >
-                Guava Tree
-              </button>
-              <p
-                class="inter text-[14px] font-semibold outline-none ease-in-out hover:scale-105 transition-transform duration-500"
-              >
-                ৳500
-              </p>
-            </div>
-            <button
-              class="text-center w-full rounded-3xl pt-3 pb-3 bg-[#15803D] text-white inter font-semibold outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
-            >
-              Add to Cart
-            </button>
-          </div>
-          <div class="rounded-2xl p-2 bg-white content-center">
-            <img
-              src="./assets/banyan.jpg"
-              class="w-full rounded-2xl mx-auto ease-in-out hover:scale-102 transition-transform duration-500"
-            />
-            <h2 class="inter text-[14px] font-semibold pt-3">Banyan Tree</h2>
-            <p class="text-[12px] text-[#1F2937] inter">
-              The banyan tree is a large tree famous for its hanging aerial
-              roots. It is the national tree of India and can spread over a wide
-              area.
-            </p>
-            <div class="flex justify-between items-center mt-2 mb-3">
-              <button
-                class="bg-[#DCFCE7] text-[#15803D] rounded-2xl pt-1 pb-1 pr-3 pl-3 outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
-              >
-                Banyan Tree
-              </button>
-              <p
-                class="inter text-[14px] font-semibold outline-none ease-in-out hover:scale-105 transition-transform duration-500"
-              >
-                ৳500
-              </p>
-            </div>
-            <button
-              class="text-center w-full rounded-3xl pt-3 pb-3 bg-[#15803D] text-white inter font-semibold outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
-            >
-              Add to Cart
-            </button>
-          </div>
-          <div class="rounded-2xl p-2 bg-white content-center">
-            <img
-              src="./assets/maple.jpg"
-              class="w-full rounded-2xl mx-auto ease-in-out hover:scale-102 transition-transform duration-500"
-            />
-            <h2 class="inter text-[14px] font-semibold pt-3">Maple Tree</h2>
-            <p class="text-[12px] text-[#1F2937] inter">
-              The maple tree is known for its beautiful leaves that change color
-              in autumn. It is common in countries like Canada and is used to
-              make maple syrup.
-            </p>
-            <div class="flex justify-between items-center mt-2 mb-3">
-              <button
-                class="bg-[#DCFCE7] text-[#15803D] rounded-2xl pt-1 pb-1 pr-3 pl-3 outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
-              >
-                Maple Tree
-              </button>
-              <p
-                class="inter text-[14px] font-semibold outline-none ease-in-out hover:scale-105 transition-transform duration-500"
-              >
-                ৳500
-              </p>
-            </div>
-            <button
-              class="text-center w-full rounded-3xl pt-3 pb-3 bg-[#15803D] text-white inter font-semibold outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
-            >
-              Add to Cart
-            </button>
-          </div>
-          <div class="rounded-2xl p-2 bg-white content-center">
-            <img
-              src="./assets/pine.jpg"
-              class="w-full rounded-2xl mx-auto ease-in-out hover:scale-102 transition-transform duration-500"
-            />
-            <h2 class="inter text-[14px] font-semibold pt-3">Pine Tree</h2>
-            <p class="text-[12px] text-[#1F2937] inter">
-              The pine tree is an evergreen tree that has needle-like leaves. It
-              grows in cold and mountainous regions around the world.
-            </p>
-            <div class="flex justify-between items-center mt-2 mb-3">
-              <button
-                class="bg-[#DCFCE7] text-[#15803D] rounded-2xl pt-1 pb-1 pr-3 pl-3 outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
-              >
-                Pine Tree
-              </button>
-              <p
-                class="inter text-[14px] font-semibold outline-none ease-in-out hover:scale-105 transition-transform duration-500"
-              >
-                ৳500
-              </p>
-            </div>
-            <button
-              class="text-center w-full rounded-3xl pt-3 pb-3 bg-[#15803D] text-white inter font-semibold outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
-            >
-              Add to Cart
-            </button>
-          </div>
-          <div class="rounded-2xl p-2 bg-white content-center">
-            <img
-              src="./assets/watermelon.jpg"
-              class="w-full rounded-2xl mx-auto ease-in-out hover:scale-102 transition-transform duration-500"
-            />
-            <h2 class="inter text-[14px] font-semibold pt-3">
-              Watermelon Tree
-            </h2>
-            <p class="text-[12px] text-[#1F2937] inter">
-              Watermelon is a vine plant that produces large, juicy fruits with
-              a green outer rind. It is very refreshing and popular during hot
-              summer seasons.
-            </p>
-            <div class="flex justify-between items-center mt-2 mb-3">
-              <button
-                class="bg-[#DCFCE7] text-[#15803D] rounded-2xl pt-1 pb-1 pr-3 pl-3 outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
-              >
-                Watermelon Tree
-              </button>
-              <p
-                class="inter text-[14px] font-semibold outline-none ease-in-out hover:scale-105 transition-transform duration-500"
-              >
-                ৳500
-              </p>
-            </div>
-            <button
-              class="text-center w-full rounded-3xl pt-3 pb-3 bg-[#15803D] text-white inter font-semibold outline-none ease-in-out shadow-lg hover:scale-105 transition-transform duration-500"
-            >
-              Add to Cart
-            </button>
+            <!-- Catagories container -->
+            <div id="catagoriesContainer" class="space-y-3"></div>
+            <!-- Catagories will be loaded here dynamically from API -->
           </div>
         </div>
-        <div class="inter bg-white p-3 rounded-xl hidden sm:inline">
-          <h2 class="text-[20px] font-semibold">Your Cart</h2>
-          <div
-            class="flex bg-[#F0FDF4] rounded-md m-2 items-center p-2 mt-2 mb-2"
-          >
-            <div>
-              <h2 class="font-semibold text-[14px]">Mango Tree</h2>
-              <p class="opacity-60">৳500 x 1</p>
-            </div>
-            <div>
-              <i
-                class="fa-solid fa-xmark fa-sm"
-                style="color: rgb(0, 0, 0)"
-              ></i>
-            </div>
-          </div>
-          <div class="flex bg-[#F0FDF4] rounded-md m-2 items-center p-2 mb-2">
-            <div>
-              <h2 class="font-semibold text-[14px]">Guava Tree</h2>
-              <p class="opacity-60">৳500 x 1</p>
-            </div>
-            <div>
-              <i
-                class="fa-solid fa-xmark fa-sm"
-                style="color: rgb(0, 0, 0)"
-              ></i>
-            </div>
-          </div>
-
-          <div class="flex gap-2">
-            <p>Total:</p>
-            <p>৳1000</p>
-          </div>
-        </div>
+        <!-- Trees -->
+        <div class="col-span-6 bg-green-300">gdsfg</div>
+        <!-- Cart -->
+        <div class="col-span-3 bg-red-300">gdsfgfd</div>
       </div>
     </section>
 
@@ -438,7 +192,7 @@
           <input
             type="text"
             placeholder="Your Name"
-            class="outline-none text-[#166534] font-bold"
+            class="outline-none text-[#166534] font-bold border-none italic"
           />
         </div>
         <div
@@ -447,14 +201,14 @@
           <input
             type="email"
             placeholder="Your Email Address"
-            class="outline-none"
+            class="outline-none border-none text-[#166534] font-bold italic"
           />
         </div>
         <div class="bg-white rounded-xl mb-5 flex justify-between p-3">
           <input
             type="number"
             placeholder="Number of Trees"
-            class="outline-none text-[#166534] font-bold"
+            class="outline-none text-[#166534] font-bold border-none italic"
           />
         </div>
         <div>
@@ -473,5 +227,8 @@
         © 2026 Green Earth. All Rights Reserved.
       </h3>
     </footer>
+
+    <!-- Scripts  -->
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
