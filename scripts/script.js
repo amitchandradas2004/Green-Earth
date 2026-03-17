@@ -2,6 +2,13 @@ const catagoriesContainer = document.getElementById("catagoriesContainer"); // t
 const treesContainer = document.getElementById("treesContainer");
 const loadingSpinner = document.getElementById("loading-spinner");
 
+function showLoading() {
+  loadingSpinner.classList.remove("hidden"); //loading spinner: hidden class will be removed.
+  treesContainer.innerHTML = "";
+}
+function hideLoading() {
+  loadingSpinner.classList.add("hidden"); //loading spinner: hidden class will be added when the api calling is done
+}
 async function loadCatagories() {
   //the function starts from here
   // Async and await
