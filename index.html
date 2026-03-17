@@ -93,7 +93,7 @@
       <h2 class="text-center inter text-[32px] font-bold py-[100px]">
         Choose Your Trees
       </h2>
-      <div class="grid grid-cols-12 gap-5 container mx-auto text-center">
+      <div class="grid grid-cols-12 gap-5 container mx-auto">
         <!-- Catagories -->
         <div class="col-span-3 bg-white shadow-2xl rounded-xl px-5 py-3">
           <h2 class="text-2xl font-bold py-2">Catagories</h2>
@@ -108,11 +108,44 @@
         </div>
         <!-- Trees -->
         <div class="col-span-6 bg-green-100 shadow-2xl rounded-xl">
-          <h2 class="text-2xl font-bold py-2">Trees</h2>
+          <!-- Trees will be rendered  -->
+          <div
+            id="treesContainer"
+            class="grid grid-cols-1 md:grid-cols-2 gap-5"
+          >
+            <!-- Dynamically card added here from js -->
+            <!-- <div class="card bg-base-100 shadow-sm">
+              <figure>
+                <img
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Card Title</h2>
+                <p class="line-clamp-2">
+                  A card component has a figure, a body part, and inside body
+                  there are title and actions parts
+                </p>
+                <div class="badge badge-success">Succes</div>
+                <div class="flex justify-between items-center">
+                  <h2 class="font-bold text-2xl text-[#4ade80]">$500</h2>
+                  <button class="btn rounded-xl bg-[#4ade80]">Buy Now</button>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <!-- Loading spinner -->
+          <div
+            id="loading-spinner"
+            class="h-[50vh] flex hidden justify-center items-center"
+          >
+            <span class="loading loading-dots loading-xl"></span>
+          </div>
         </div>
         <!-- Cart -->
         <div class="col-span-3 bg-white shadow-2xl rounded-xl">
-          <h2 class="text-2xl font-bold py-2">Cart</h2>
+          <!-- <h2 class="text-2xl font-bold py-2">Cart</h2> -->
         </div>
       </div>
     </section>
