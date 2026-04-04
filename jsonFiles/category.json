@@ -1,0 +1,56 @@
+{
+  "status": true,
+  "message": "successfully fetched categories data",
+  "categories": [
+    {
+      "id": 1,
+      "category_name": "Fruit Tree",
+      "small_description": "Trees that bear edible fruits like mango, guava, and jackfruit."
+    },
+    {
+      "id": 2,
+      "category_name": "Flowering Tree",
+      "small_description": "Trees grown for their beautiful and fragrant flowers."
+    },
+    {
+      "id": 3,
+      "category_name": "Shade Tree",
+      "small_description": "Large trees providing cool shade and shelter."
+    },
+    {
+      "id": 4,
+      "category_name": "Medicinal Tree",
+      "small_description": "Trees valued for their healing and herbal properties."
+    },
+    {
+      "id": 5,
+      "category_name": "Timber Tree",
+      "small_description": "Trees cultivated for strong, valuable wood."
+    },
+    {
+      "id": 6,
+      "category_name": "Evergreen Tree",
+      "small_description": "Trees that remain green throughout the year."
+    },
+    {
+      "id": 7,
+      "category_name": "Ornamental Plant",
+      "small_description": "Plants grown for decorative purposes indoors or outdoors."
+    },
+    {
+      "id": 8,
+      "category_name": "Bamboo",
+      "small_description": "Fast-growing versatile plants with woody stems."
+    },
+    {
+      "id": 9,
+      "category_name": "Climber",
+      "small_description": "Plants that grow by climbing on supports."
+    },
+    {
+      "id": 10,
+      "category_name": "Aquatic Plant",
+      "small_description": "Plants that grow in or near water bodies."
+    }
+  ]
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Green-Earth</title>
+    <link rel="stylesheet" href="tailwind.css" />
     <link
       rel="shortcut icon"
       href="./assets/download.png"
@@ -89,7 +90,7 @@
     </header>
 
     <!-- Choose Your Trees Section -->
-    <section class="bg-[#DCFCE7]">
+    <section class="bg-[#DCFCE7] py-10">
       <h2 class="text-center inter text-[32px] font-bold py-[100px]">
         Choose Your Trees
       </h2>
@@ -98,7 +99,7 @@
         <div class="col-span-3 bg-white shadow-2xl rounded-xl px-5 py-3">
           <h2 class="text-2xl font-bold py-2">Catagories</h2>
           <div>
-            <button class="btn btn-success w-full mb-3" id="allTreesBtn">
+            <button class="btn btn-primary w-full mb-3" id="allTreesBtn">
               All Trees
             </button>
             <!-- Catagories container -->
@@ -107,7 +108,7 @@
           </div>
         </div>
         <!-- Trees -->
-        <div class="col-span-6 bg-green-100 shadow-2xl rounded-xl">
+        <div class="col-span-6 shadow-2xl rounded-xl">
           <!-- Trees will be rendered  -->
           <div
             id="treesContainer"
@@ -267,5 +268,6 @@
 
     <!-- Scripts  -->
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/catagoriesContainer.js"></script>
   </body>
 </html>
