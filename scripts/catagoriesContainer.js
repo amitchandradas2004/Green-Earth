@@ -4,7 +4,7 @@ async function loadCatagories() {
   const data = await res.json();
   // console.log(data);
   data.categories.forEach((catagory) => {
-    console.log(catagory);
+    // console.log(catagory);
     const btn = document.createElement("button");
     btn.innerText = catagory.category_name;
     btn.className = "btn btn-outline w-full";
